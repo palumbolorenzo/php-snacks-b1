@@ -13,6 +13,57 @@ Olimpia Milano - Cantù | 55-60 */
     <title>Document</title>
 </head>
 <body>
-    <?php ?>
+    <?php 
+       $matches = [
+        [
+            home => [
+                name => NY Knicks;
+                points => 84;
+            ],
+            away => [
+                name => Boston Celtics;
+                points => 88;
+            ],
+        ],
+        [
+            home => [
+                name => GS Warriors;
+                points => 79;
+            ],
+            away => [
+                name => LA Lakers;
+                points => 86;
+            ],
+        ],
+        [
+            home => [
+                name => Miami Heat;
+                points => 81;
+            ],
+            away => [
+                name => Orlando Magic;
+                points => 74;
+            ],
+        ],
+        [
+            home => [
+                name => Brooklyn Nets;
+                points => 84;
+            ],
+            away => [
+                name => Toronto Raptors;
+                points => 77;
+            ],
+        ],
+    ];
+    ?>
+
+    <div>
+        <?php 
+        for ($i = 0; $i < count ($matches); $i++) {
+            echo $matches[$i];
+        }
+        ?>
+    </div>
 </body>
 </html>
