@@ -3,6 +3,19 @@
 Creare un array con 15 numeri casuali, tenendo conto che l’array non dovrà contenere lo stesso numero più di una volta */
 ?>
 
+<?php 
+   $n_randoms = 15;
+   $min = 1;
+   $max = 100;
+   $arr_randoms = [];
+   while (count($arr_randoms) < $n_randoms) {
+    $random = rand($min, $max);
+    if (in_array($random, $arr_randoms)) {
+        $arr_randoms[] = $random;
+    }
+   }
+?>   
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +25,6 @@ Creare un array con 15 numeri casuali, tenendo conto che l’array non dovrà co
     <title>Document</title>
 </head>
 <body>
-    <?php ?>
+    <div></div>
 </body>
 </html>
