@@ -6,42 +6,42 @@ Olimpia Milano - Cantù | 55-60 */
 $arrMatches = [
  [
     'home' => [
-        'name' => 'NY Knicks';
-        'points' => 84;
+        'name' => 'NY Knicks',
+        'points' => 84,
     ],
      'away' => [
-        'name' => 'Boston Celtics';
-        'points' => 88;
+        'name' => 'Boston Celtics',
+        'points' => 88,
     ],
  ],
  [
      'home' => [
-         'name' => 'GS Warriors';
-         'points' => 79;
+         'name' => 'GS Warriors',
+         'points' => 79,
      ],
      'away' => [
-         'name' => 'LA Lakers';
-         'points' => 86;
+         'name' => 'LA Lakers',
+         'points' => 86,
      ],
  ],
  [
      'home' => [
-         'name' => 'Miami Heat';
-         'points' => 81;
+         'name' => 'Miami Heat',
+         'points' => 81,
      ],
      'away' => [
-         'name' => 'Orlando Magic';
-         'points' => 74;
+         'name' => 'Orlando Magic',
+         'points' => 74,
      ],
  ],
  [
      'home' => [
-         'name' => 'Brooklyn Nets';
-         'points' => 84;
+         'name' => 'Brooklyn Nets',
+         'points' => 84,
      ],
      'away' => [
-         'name' => 'Toronto Raptors';
-         'points' => 77;
+         'name' => 'Toronto Raptors',
+         'points' => 77,
      ]
  ]
 ];

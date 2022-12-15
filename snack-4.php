@@ -30,7 +30,7 @@ Creare un array con 15 numeri casuali, tenendo conto che l’array non dovrà co
         <?php 
         for ($i = 0; $i < $n_randoms; $i ++) {
             ?>
-            <li><?= $random ?></li><?php
+            <li><?= $arr_randoms[$i] ?></li><?php
         } ?>
 	</ul> 
 
